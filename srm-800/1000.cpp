@@ -8,9 +8,9 @@ class ClassName{
 };
 int main(){
 	ClassName obj;
-	cout << "Case 1: " << obj.FunctionName({0, 1, 2, 3}) << " | " << "31" << endl;
-	cout << "Case 2: " << obj.FunctionName({0, 1, 0, 3}) << " | " << "31" << endl;
-	cout << "Case 3: " << obj.FunctionName({0, 0, 0, 0, 0, 0}) << " | " << "43" << endl;
-	cout << "Case 4: " << obj.FunctionName({0, 0, 1, 1, 2}) << " | " << "49" << endl;
+    cout << "Case 0: " << obj.FunctionName(input) << " | " << "output" << endl;
+    cout << "Case 1: " << obj.FunctionName(input) << " | " << "output" << endl;
+    cout << "Case 2: " << obj.FunctionName(input) << " | " << "output" << endl;
+    cout << "Case 3: " << obj.FunctionName(input) << " | " << "output" << endl;
 	return 0;
 }

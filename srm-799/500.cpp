@@ -11,8 +11,8 @@ class PlanningTrips{
 };
 int main(){
     PlanningTrips obj;
-    cout << "Case 1: " << obj.find(10, {5, 6, 3}) << " | " << "7" << endl;
-    cout << "Case 2: " << obj.find(2, {13, 13}) << " | " << "14" << endl;
-    cout << "Case 3: " << obj.find(2, {13, 0, 13}) << " | " << "15" << endl;
+    cout << "Case 0: " << obj.find(10, {5, 6, 3}) << " | " << "7" << endl;
+    cout << "Case 1: " << obj.find(2, {13, 13}) << " | " << "14" << endl;
+    cout << "Case 2: " << obj.find(2, {13, 0, 13}) << " | " << "15" << endl;
     return 0;
 }
