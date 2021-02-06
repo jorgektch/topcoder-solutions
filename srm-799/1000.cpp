@@ -1,16 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
-class ClassName{
-  public: string FunctionName(string name){
-      string message = "hi";
-      return message+" "+name;
-  }
+class MapleTreeEasy{
+	public: long long count(vector <int> p)
+		
+	}
 };
 int main(){
-    ClassName obj;
-    cout << "Case 1: " << obj.FunctionName("Jorge") << " | " << "Esperado" << endl;
-    cout << "Case 2: " << obj.FunctionName("Jesus") << " | " << "Esperado" << endl;
-    cout << "Case 3: " << obj.FunctionName("Ktch") << " | " << "Esperado" << endl;
-    cout << "Case 4: " << obj.FunctionName("Villaverde") << " | " << "Esperado" << endl;
-    return 0;
+	MapleTreeEasy obj;
+	cout << "Case 1: " << obj.count({0, 1, 2, 3}) << " | " << "31" << endl;
+	cout << "Case 2: " << obj.count({0, 1, 0, 3}) << " | " << "31" << endl;
+	cout << "Case 3: " << obj.count({0, 0, 0, 0, 0, 0}) << " | " << "43" << endl;
+	cout << "Case 4: " << obj.count({0, 0, 1, 1, 2}) << " | " << "49" << endl;
+	return 0;
 }
