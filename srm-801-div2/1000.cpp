@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class ClassName{
-	public: long long FunctionName(vector <int> p)
+	public: long long FunctionName(vector <int> p){
 		
         return
 	}
